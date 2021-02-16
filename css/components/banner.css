@@ -1,25 +1,25 @@
-.banner{
+.-banner{
     box-sizing: border-box;
     background-image: url(../../assets/img/desenhando.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 830px;
-    box-shadow: 10px 10px 0 #000;
+    border-bottom: 10px solid #000;
     padding-top: 135PX;
     padding-left: 80PX;
 }
 
-.banner .wrapper{
+.-banner .wrapper{
     display: flex;
     flex-direction: column;
     width: 640px;
 }
 
-.banner .box{
+.-banner .box{
     margin-bottom: 60px;
 }
 
-.banner .navegation{
+.-banner .navegation{
     display: flex;
     justify-content: space-around;
 }

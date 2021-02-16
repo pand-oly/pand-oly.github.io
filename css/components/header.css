@@ -10,6 +10,6 @@ header{
     padding-left: 15px;
 }
 
-h1.name{
-    padding-top: 30px;
+.logo{
+    display: inline-flex;
 }
