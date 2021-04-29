@@ -21,20 +21,21 @@
         <link rel="stylesheet" href="css/components/texto.css">
         <link rel="stylesheet" href="css/components/sub-title.css">
         <link rel="stylesheet" href="css/components/social-icons.css">
+        <link rel="stylesheet" href="css/components/main-footer.css">
+        <link rel="stylesheet" href="css/components/main-form.css">
     </head>
 
     <body>
         <header>
             <div class="logo">
                 <img class="image" src="assets/img/m_do.png">
-                <h1 class="main-title -name" href="">Rick</h1>
+                <h1 class="main-title -name">Rick</h1>
             </div>
 
             <nav>
-                <a class="main-action" href="">Skills</a>
-                <a class="main-action" href="">Projetos</a>
-                <a class="main-action" href="">Sobre</a>
-                <a class="main-action" href="">Contato</a>
+                <a class="main-action" href="index.html#Skills">Skills</a>
+                <a class="main-action" href="index.html#Sobre">Sobre</a>
+                <a class="main-action" href="index.html#Contatos">Contato</a>
                 <a class="main-button -header" href="" lang="en">Download CV</a>
             </nav>
         </header>
@@ -46,13 +47,13 @@
                 </div>
             
                 <div class="navegation">
-                    <a class="main-button" href="">Contatos</a>
+                    <a class="main-button" href="index.html#Social">Contatos</a>
                     <a class="main-button" href="" lang="en">Download CV</a>
                 </div>
             </div>
         </section>
 
-        <section class="main-section -Skills">
+        <section class="main-section -Skills" id="Skills">
             
             <h2 class="main-title -skill">Skills</h2>
             
@@ -61,8 +62,8 @@
                     <img class="icon" src="icons/icon_HTML.png" alt="icone_HTML">
                     <div class="right">
                         <h3 class="title">HTML</h3>
-                        <progress class="progress-bar" max="100" value="50">
-                            50%
+                        <progress class="progress-bar" max="100" value="65">
+                            65%
                         </progress>
                     </div>
                 </article>
@@ -70,8 +71,8 @@
                     <img class="icon" src="icons/ico_python.png" alt="icone_Python">
                     <div class="right">
                         <dt class="title">Python</dt>
-                        <progress class="progress-bar" max="100" value="50">
-                            50%
+                        <progress class="progress-bar" max="100" value="70">
+                            70%
                         </progress>
                     </div>
                 </article>
@@ -79,8 +80,8 @@
                     <img class="icon" src="icons/ico_css.png" alt="icone_Css">
                     <div class="right">
                         <dt class="title">CSS</dt>
-                        <progress class="progress-bar" max="100" value="50">
-                            50%
+                        <progress class="progress-bar" max="100" value="40">
+                            40%
                         </progress>
                     </div>
                 </article>
@@ -88,8 +89,8 @@
                     <img class="icon" src="icons/ico_java.png" alt="icone_Java">
                     <div class="right">
                             <dt class="title">Java</dt>
-                        <progress class="progress-bar" max="100" value="50">
-                            50%
+                        <progress class="progress-bar" max="100" value="30">
+                            30%
                         </progress>
                     </div>
                 </article>
@@ -97,8 +98,8 @@
                     <img class="icon" src="icons/ico_js .png" alt="icone_js">
                     <div class="right">
                         <dt class="title">Java Script</dt>
-                        <progress class="progress-bar" max="100" value="50">
-                            50%
+                        <progress class="progress-bar" max="100" value="15">
+                            15%
                         </progress>
                     </div>
                 </article>
@@ -106,8 +107,8 @@
                     <img class="icon"src="icons/ico_git .png" alt="icone_git">
                     <div class="right">
                         <dt class="title">Git</dt>
-                        <progress class="progress-bar" max="100" value="50">
-                            50%
+                        <progress class="progress-bar" max="100" value="80">
+                            80%
                         </progress>
                     </div>
                 </article>
@@ -115,15 +116,15 @@
                     <img class="icon" src="icons/ico_C.png" alt="icone_C">
                     <div class="right">
                         <dt class="title">C</dt>
-                        <progress class="progress-bar" max="100" value="50">
-                            50%
+                        <progress class="progress-bar" max="100" value="25">
+                            25%
                         </progress>
                     </div>
                 </article>
             </div>
         </section>
 
-        <section class="main-section -sobre">
+        <section class="main-section -sobre" id="Sobre">
             <h2 class="main-title -sobre">Sobre</h2>
 
             <p class="texto">Um entusiasta de tecnologia que finalmete resolver larga da vida de ser só um leigo e 
@@ -132,30 +133,45 @@
             </p>
         </section>
 
-        <section class="main-section -contato">
+        <form class="main-form" id="Contatos">
             <h2 class="main-title -contato">Contatos</h2>
 
-            <h3 class="sub-title">Nome</h3>
-            <div class='main-box -contacts'></div>
+            <label class="sub-title" for="name">Nome</label>
+            <input class='main-box -contacts' type="text" required>
 
-            <h3 class="sub-title">Email</h3>
-            <div class='main-box -contacts'></div>
+            <label class="sub-title" for="email">Email</label>
+            <input class='main-box -contacts' type="email" required>
 
-            <h3 class="sub-title">Mensagem</h3>
-            <div class="main-box -message"></div>
+            <label class="sub-title" for="message">Mensagem</label>
+            <textarea class="main-box -message" id="message" required></textarea>
 
-            <div class="main-box -send">
-                <h4 class="sub-title -send">Enviar</h4>
-            </div>
-        </section>
+            <button class="main-button -form" type="submit">Enviar</button>
+        </form>
 
-        <section class="main-section -icons">
+        <footer class="main-footer" id="Social">
             <div class="social-icons -block">
-                <img class="social-icons -icons -line" src="icons/icon-github.png" alt="GitHub">
-                <img class="social-icons -icons -line" src="icons/icon-twitter.png" alt="Twitter">
-                <img class="social-icons -icons" src="icons/icon-discord.png" alt="Discord">
-                <img class="social-icons -icons -line" src="icons/icon-linkedin .png" alt="Linkedin">
+                
+                <a  class="social-icons -icons -line"
+                href="https://github.com/pand-oly" target="_blank">
+                    <img src="icons/icon-github.png"
+                                alt="GitHub">
+                </a>
+                
+                <a  class="social-icons -icons -line"
+                    href="https://twitter.com/Ricky_oly" target="_blank">
+                    <img src="icons/icon-twitter.png" alt="Twitter">
+                </a>
+                
+                <a class="social-icons -icons"
+                    href="" target="_blank">
+                    <img src="icons/icon-discord.png" alt="Discord">
+                </a>
+                
+                <a  class="social-icons -icons -line"
+                    href="https://www.linkedin.com/in/rick-oly-339446201/" target="_blank">
+                    <img src="icons/icon-linkedin .png" alt="Linkedin">
+                </a>
             </div>
-        </section>
+        </footer>
     </body>
 </html>

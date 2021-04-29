@@ -1,11 +1,15 @@
-
 .sub-title{
     font-family: 'fira code', sans-serif;
     color: #fff;
     font-size: 25px;
     font-weight: 400;
+    padding-left: 5px;
 }
 
 .sub-title.-send{
+    font-family: 'fira code', sans-serif;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
     padding-top: 8px;
 }

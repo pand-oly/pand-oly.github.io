@@ -24,3 +24,16 @@
 .main-button:hover {
     transform: scale(0.9);
 }
+
+.main-button.-form{
+    width: 100%;
+    background-color: #f25A70;
+    color: #fff;
+    text-align: center;
+    border: 3px solid #000;
+    box-shadow: none;
+    margin: 0 0 0 5px;
+    transform: none;
+    line-height: 0;
+    cursor: pointer;
+}
