@@ -1,0 +1,26 @@
+<link rel="stylesheet" href="css/components/wrapper-card.css">
+<link rel="stylesheet" href="css/components/card-project.css">
+
+        <section class="main-section -projects">
+            <h1 class="main-title -second">Projetos</h1>
+
+            <div class="wrapper-card">
+                <a href="https//.com" target="_blank">
+                    <figure class="card-project">
+                        <img src="icons/firedlabs.png" alt="icone da firelabs">
+                    </figure>
+                </a>
+                <a href="https//.com" target="_blank"></a>
+                    <figure class="card-project -blue">
+                        <img src="icons/collabcode.png" alt="icone da firelabs">
+                    </figure>
+                </a>
+                <a href="https//.com" target="_blank"></a>
+                    <figure class="card-project">
+                        <img src="icons/portfolio.png" alt="icone da firelabs">
+                    </figure>
+                </a>
+            </div>
+        </section>
+
+<link rel="stylesheet" href="css/components/logo.css">

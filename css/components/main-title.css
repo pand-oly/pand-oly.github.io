@@ -12,10 +12,30 @@
     padding-left: 10px;
 }
 
-.main-title.-second{
+.main-title.-skill{
     color: #bbb2b6;
     font-size: 40px;
     text-align: center;
     text-shadow: none;
     padding-top: 40px;
+    margin-bottom: 60px;
+
+}
+
+.main-title.-sobre{
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: none;
+    padding-top: 40px;
+    margin-bottom: 60px;
+}
+
+.main-title.-contato{
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: none;
+    padding-top: 40px;
+    margin-bottom: 35px;
 }

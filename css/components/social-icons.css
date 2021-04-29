@@ -1,0 +1,14 @@
+.social-icons.-icons{
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+.social-icons.-line{
+    padding-bottom: 5px;
+}
+
+.social-icons.-block{
+    padding-top: 8px;
+    display: flex;
+    justify-content: center;
+}
